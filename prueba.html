@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen con Modal</title>
+    <link rel="stylesheet" href="prueba.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item" onclick="openModal()">
+            <img src="ruta_de_la_imagen.jpg" alt="Descripción de la Imagen">
+            <div class="info">
+                <h2>Subtítulo de la Imagen</h2>
+                <p>$Precio</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Más Información</h2>
+            <p>Esta es la información adicional sobre la imagen.</p>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('myModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+
+        // Close the modal when clicking outside of it
+        window.onclick = function(event) {
+            if (event.target == document.getElementById('myModal')) {
+                document.getElementById('myModal').style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
