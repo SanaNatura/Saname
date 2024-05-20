@@ -6,6 +6,101 @@
 *
 * Contexts
 */
+
+.modal-title{
+	font-weight: 500;
+}
+.cont-nombres{
+	display: flex;
+	background-color: #1f1f1f;
+	padding: 20px;	
+	margin-bottom: 10px;
+}
+.img-planta{
+	text-align: center;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+.nombres{
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10px;
+}
+.ver-mas{
+	font-size: 17px;
+	font-weight: 500;
+}
+.ver-mas:hover{
+	color: #207432;
+	padding-left: 30px;
+}
+.nombres-real{
+	padding-bottom: 20px;
+}
+.nombres {
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	color: rgb(199, 197, 197);
+  }
+  .nombres-real, .nombres-cien {
+	margin-bottom: 5px;
+  }
+  .nombres-real h4, .nombres-cien h4 {
+	margin-right: 5px;
+	font-weight: 500;
+	font-family: "Poppins";
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+  }
+  .nombres-real p, .nombres-cien p {
+	display: inline;
+	font-size: 1em;
+	margin: 0;
+  }
+
+.p-curativas{
+	margin-top: 20px;
+	font-size:18px;
+}
+.lista-p-curativas{
+	text-align: left;
+	padding: 20px;
+}
+.derivado{
+	padding: 0px 20px 20px 20px;
+	text-align: left;
+}
+.line-2{
+	margin-bottom: 10px;
+}
+.title-prep{
+	font-size: 18px;
+	margin-top: 10px;
+	margin: 0;
+	text-align: left;
+}
+.text-prep{
+	padding: 0px 20px 20px 20px;
+	text-align: left;
+}
+
+.img-triptico {
+	transition: transform 0.9s ease; /* Suaviza la transición */
+	padding: 20px;
+  }
+  .img-triptico:hover {
+	transform: scale(2.2); /* Agranda la imagen un 10% al pasar el cursor */
+  }
+
+
+.cont-modal{
+	text-align: left;
+}
+
 .leer-mas{
 	background-color: #265c36;
 	color: white;
@@ -24,7 +119,7 @@
 }
 .text-invs{
 	text-align: justify;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 
